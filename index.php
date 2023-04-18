@@ -7,6 +7,12 @@
     <title>PHP Badwords</title>
 </head>
 <body>
+
+    <form action="parag-e-lunghezza.php" method="get">
+        <textarea name="parag" id="" cols="30" rows="10" placeholder="inserisci il paragrafo"></textarea>
+        <input type="text" name="parola" placeholder="parola da censurare">
+        <input type="submit">
+    </form>
     
 </body>
 </html>
